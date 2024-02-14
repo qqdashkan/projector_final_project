@@ -1,0 +1,67 @@
+body {
+    font-size: 15px; 
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.container {
+    display: block;
+    top: 100px;
+    margin-left: 15%;
+    margin-right: auto;
+}
+
+.button {
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+
+.box-period {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #999;
+}
+
+.box-days {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #999;
+}
+
+.box-time {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #999;
+}
+
+table {
+    text-align: left;
+    position: relative;
+    border-collapse: collapse; 
+    background-color: #f6f6f6;
+    width: 100%;
+  }
+
+  td, th {
+    border: 1px solid #999;
+    padding: 10px;
+  }
+
+  th {
+    background: brown;
+    color: white;
+    border-radius: 0;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+  }

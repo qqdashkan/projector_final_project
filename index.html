@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+      <a href="second.html">Пошук святкових днів</a>
+    <div class="first">
+        <h2>Калькулятор днів</h2>
+      </div>
+      <div class="firstDate">
+      
+      <form>
+        <div class="first">
+          <label for="firstDate">Початковий день</label>
+          <input type="date" id="firstDate" class="data1-input"/>
+          </div>
+      </form>
+      </div>   
+      <form>
+        <div class="second">
+        <label for="secondDate">Кінцевий день:</label>
+        <input type="date" id="secondDate" class="data2-input"/>
+      </form>
+      </div>
+    </div>
+    <div class="box-period">
+      <form>
+          <label>
+            <input type="radio" class="week" name="period" value="week">
+            Обрати тиждень
+          </label>
+          <br>
+          <label>
+            <input type="radio" class="month" name="period" value="month">
+            Обрати місяць
+          </label>
+        </form>
+    </div>
+
+    <div class="box-days">
+    <form >
+    <div>
+            <label>
+              <input type="radio" class="all-days" name="type-of-days" value="full">
+              Обрати всі дні
+            </label>
+    </div>
+    <div>
+            <label>
+              <input type="radio" class="days-on" name="type-of-days" value="days-on">
+              Обрати тільки будні
+            </label>
+    </div>
+    <div>
+            <label>
+              <input type="radio" class="days-off" name="type-of-days" value="days-off">
+              Обрати тільки вихідні
+            </label>
+    </div>
+  </form>
+</div>
+
+<div class="box-time">
+<form >
+    <div>
+            <label>
+              <input type="radio" class="days" name="result" value="days">
+              Порахувати кількість днів
+            </label>
+    </div>
+    <div>
+            <label>
+              <input type="radio" class="hours" name="result" value="hours">
+              Порахувати кількість годин
+            </label>
+    </div>
+    <div>
+            <label>
+              <input type="radio" class="minutes" name="result" value="minutes">
+              Порахувати кількість хвилин 
+            </label>
+    </div>
+    <div>
+            <label>
+              <input type="radio" class="seconds" name="result" value="seconds">
+              Порахувати кількість секунд
+            </label>
+    </div>
+</form>
+</div>
+
+<div class="button">
+    <button type="submit" class="btn">Отримати результат</button><br>
+    <span id="result"></span>
+</div>
+<table id="table">
+<thead>
+  <tr>
+    <th>Дата 1</th>
+    <th>Дата 2</th>
+    <th>Результат</th>
+  </tr>
+</thead>
+<tbody></tbody>
+</table>
+</div>
+</body>
+<script src="index.js"></script>
+</html>
